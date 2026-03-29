@@ -1,0 +1,21 @@
+[project]
+name = "community-detection-credit-fraud-graphml"
+version = "0.1.0"
+description = "Graph-based credit fraud and payment default detection using cohorting, Neo4j, community detection, and hybrid embeddings."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars>=1.8.0",
+    "ydata-profiling>=4.9.0",
+    "sentence-transformers>=3.0.1",
+    "neo4j>=5.24.0",
+    "networkx>=3.3",
+    "scikit-learn>=1.5.1",
+    "numpy>=2.1.0",
+    "pandas>=2.2.2",
+    "matplotlib>=3.9.2",
+    "seaborn>=0.13.2",
+    "jupyter>=1.1.1",
+    "ipykernel>=6.29.5",
+    "openai>=1.51.0",
+]
